@@ -2,8 +2,14 @@
 Dumping MySQL tables to JSON.
 
 ## Installation
-- Install mysql2json dependency (if not already installed):
-- `go get github.com/go-sql-driver/mysql`
+Install mysql2json dependency (if not already installed):
+```sh
+$ go get github.com/go-sql-driver/mysql
+```
+Then, install in the usual Go way:
+```sh
+$ go get github.com/XuefengHuang/mysql2json
+```
 
 ## Usage
 ```
